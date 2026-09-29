@@ -1,0 +1,13 @@
+backbone: convnext_tiny
+image_size: 512
+batch_size: 4
+epochs: 3
+learning_rate: 5.0e-5
+weight_decay: 1.0e-4
+seed: 42
+max_train_samples_per_class: 5000
+max_validation_samples_per_class: 500
+loss_weights:
+  classification: 0.2
+  binary_cross_entropy: 2.0
+  dice: 4.0

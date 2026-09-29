@@ -1,0 +1,18 @@
+image_size: 160
+batch_size: 64
+epochs: 3
+learning_rate: 2.0e-5
+weight_decay: 1.0e-4
+seed: 42
+augment_train: true
+use_geometry_features: true
+use_source_embedding: false
+source_vocab_size: 128
+source_embedding_dim: 8
+loss_weights:
+  pointwise: 0.4
+  pairwise: 0.75
+  listwise: 0.6
+  hard_negative: 1.75
+ranking_margin: 0.2
+target_gap: 0.2

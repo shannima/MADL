@@ -1,0 +1,6 @@
+weight_root: models
+weights:
+  agent_a: agent_a_qwen_lora
+  agent_b: agent_b_dualstream/madl_agent_b_dualstream_v1.pt
+  visual_ranker: agent_b_visual_ranker/madl_agent_b_visual_ranker_v1.pt
+  sam: external/sam_vit_h_4b8939.pth

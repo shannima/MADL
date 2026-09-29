@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.venv*/
+venv/
+.env
+.env.*
+!.env.example
+
+# Data, run outputs, and model files stay outside the code repository.
+data/
+models/
+outputs/
+runs/
+cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Editor and operating-system metadata.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
